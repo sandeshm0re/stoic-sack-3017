@@ -1,0 +1,124 @@
+
+body{
+    font-family:Serif Display;
+    margin: 0;
+}
+.first{
+     background-color: aqua;
+     display: flex;
+    .image{
+        width: 1094px;
+        height: 729px;
+        flex-shrink: 0;
+        background-color: blue;
+    }
+    .text{
+        height: 128px;
+        width: 453px;
+        // background-color: red;
+        img{
+            width: 50px;
+            height: 40px;
+            flex-shrink: 0;
+        }
+        #sec{
+            margin-left: 200px;
+        }
+        
+    }
+}
+.second{
+    
+    height: 656px;
+    display: flex;
+    flex-shrink: 0;
+    background: #434CCC;
+    .image{
+        width: 720px;
+        background-color: blueviolet;
+        img{
+            width: 703px;
+            height: 656px;
+            flex-shrink: 0;
+        }
+    }
+    .content{
+        width: 720px;
+        // background-color: aqua;
+        .text{
+            width: 470px;
+            // background-color: black;
+            color: white;
+            margin: 0 auto;
+            margin-top: 127px;
+            h1{
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 64px;
+            }
+            p{
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+            }
+            button{
+                background-color:#f1b505;
+                color: white;
+                width: 170px;
+                height: 48px;
+                flex-shrink: 0;
+                border: none;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+.third{
+    text-align: center;
+    h5{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 4.8px;
+        text-transform: uppercase;
+    }
+    h2{
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+    }
+    p{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        
+    }
+    .cards{
+        display: flex;
+        gap: 20px;
+        
+        .card{
+            width: 370px;
+            height: 480px;
+            flex-shrink: 0;
+            background-color: #f1b505;
+            margin: 0 auto;
+            img{
+                border-radius: 50%;
+                margin-top: 23px;
+            }
+            h4{
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+                padding-left: 23px;
+            }
+        }
+    }
+}
