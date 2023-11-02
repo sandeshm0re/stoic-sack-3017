@@ -3,39 +3,74 @@ body{
     font-family:Serif Display;
     margin: 0;
 }
+
+.main{
+ display: flex;
+ flex-direction: column;
+}
 .first{
-     background-color: aqua;
      display: flex;
     .image{
-        width: 1094px;
+        width: 50%;
         height: 729px;
         flex-shrink: 0;
-        background-color: blue;
     }
     .text{
         height: 128px;
-        width: 453px;
-        // background-color: red;
+        padding: 10px;
+        #para{
+            width: 500px;
+        }
         img{
             width: 50px;
             height: 40px;
             flex-shrink: 0;
         }
-        #sec{
-            margin-left: 200px;
+        h2{
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 64px;
+            width: 453px;
+            height: 128px;
+            margin-top: 150px;
         }
+        p{
+            // background-color: #434CCC;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px; 
+        }
+        .sec{
+            width: 550px;
+            display: flex;
+            // background-color: #f1b505;
+        
+            .sec1{
+                width: 200px;
+                // background-color: aqua;
+            }
+            .sec2{
+                // background-color: aqua;
+                width: 200px;
+                margin-left: 150px;   
+            }
+            
+
+        }
+        
         
     }
 }
 .second{
-    
     height: 656px;
     display: flex;
     flex-shrink: 0;
     background: #434CCC;
     .image{
         width: 720px;
-        background-color: blueviolet;
+        // background-color: blueviolet;
         img{
             width: 703px;
             height: 656px;
@@ -56,6 +91,7 @@ body{
                 font-style: normal;
                 font-weight: 400;
                 line-height: 64px;
+                width: 331px;
             }
             p{
                 font-size: 20px;
@@ -76,8 +112,9 @@ body{
     }
 }
 .third{
-    text-align: center;
+
     h5{
+        text-align: center;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -86,39 +123,164 @@ body{
         text-transform: uppercase;
     }
     h2{
+        text-align: center;
         font-size: 56px;
         font-style: normal;
         font-weight: 400;
         line-height: 64px;
+
     }
     p{
+        text-align: center;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: 32px;
+        margin-top: -25px;
+        margin-bottom: 36px;
         
     }
     .cards{
         display: flex;
         gap: 20px;
-        
         .card{
             width: 370px;
             height: 480px;
             flex-shrink: 0;
-            background-color: #f1b505;
             margin: 0 auto;
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
             img{
                 border-radius: 50%;
-                margin-top: 23px;
+                margin: 23px 23px 0px 32px;
             }
             h4{
                 font-size: 24px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 32px;
-                padding-left: 23px;
+                margin-left: 32px;
+            }
+            hr{
+                background: black;
+                width: 338px;
+                height: 1px;
+                opacity: 0.1011;
+            }
+            p{
+                text-align: start;
+                margin: 0px 0px 23px 32px;
+            }
+            .detail{
+                display: flex;
+                img{
+                    width: 18px;
+                    height: 18px;
+                    flex-shrink: 0;
+                    margin-left: 23px;
+                    margin-top: 13px;
+                    margin-bottom: 24px;
+                }
+                .fb{
+                    margin-left: 174px;
+                }
+                .tw ,.insta{
+                    margin-left: -13px;
+                }
             }
         }
     }
 }
+.fourth{
+    // background-color: aqua;
+    h5{
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: 4.8px;
+        text-transform: uppercase;
+        margin-top: 95px;
+    }
+    h2{
+        text-align: center;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+        margin-top: -25px;
+    }
+    p{
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin-top: -17px;
+    }
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 112px;
+        .box{
+            height: 144px;
+            border-radius: 5px;
+            background: #FFF;
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+            display: flex;
+            img{
+                margin-top: 32px;
+                margin-left: 32px;
+                margin-right: 25px;
+                width: 43px;
+                height: 49px;
+                flex-shrink: 0;
+            }
+            .text{
+                width: 238px;
+                height: 65px;
+                flex-shrink: 0;
+                margin-top: -20px;
+                text-align: start;
+                h4{
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 32px;
+                }
+                p{
+                    color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-top: -20px;
+                    align-self:self-start;
+                }
+            }
+        }
+    }
+
+}
+
+
+//   Responsiveness
+
+@media screen and (max-width: 480px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .first{
+        display:flex;
+        flex-direction: column;  
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+    }
+}
+     
+  
