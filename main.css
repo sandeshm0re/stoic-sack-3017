@@ -1,1 +1,186 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.firstboxdee {
+  height: 496px;
+  width: 1440px;
+  background: #434CCC;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.firstboxdee .less_greater_sign {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.firstboxdee .less_greater_sign .imgbox {
+  height: 48px;
+  width: 48px;
+  border: 1px solid rgb(234, 232, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 152px;
+}
+.firstboxdee .less_greater_sign img {
+  height: 21px;
+  width: 13px;
+}
+.firstboxdee .ladiesimg {
+  height: 270px;
+  width: 270px;
+  margin-left: 132px;
+}
+.firstboxdee .lastdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 270px;
+}
+.firstboxdee .para1 {
+  height: 24px;
+  width: 173px;
+  color: #FFFFFF;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3em;
+  text-align: left;
+  margin-left: 98px;
+}
+.firstboxdee .para2 {
+  margin-left: 98px;
+  height: 107px;
+  width: 670px;
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.firstboxdee .para3 {
+  margin-left: 98px;
+  height: 32px;
+  width: 125px;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.firstboxdee .para4 {
+  margin-left: 98px;
+  height: 24px;
+  width: 53px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5019607843);
+}
+
+@media all and (max-width: 400px) {
+  .firstboxdee {
+    height: 848px;
+    width: 375px;
+    background: #434CCC;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .firstboxdee .less_greater_sign {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    top: 165px;
+    left: -210px;
+  }
+  .firstboxdee .less_greater_sign .imgbox {
+    height: 48px;
+    width: 48px;
+    border: 1px solid rgb(234, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 152px;
+  }
+  .firstboxdee .less_greater_sign img {
+    height: 21px;
+    width: 13px;
+  }
+  .firstboxdee .ladiesimg {
+    height: 270px;
+    width: 270px;
+    margin-left: 80px;
+    margin-top: -20px;
+  }
+  .firstboxdee .lastdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+    margin-top: 40px;
+  }
+  .firstboxdee .para1 {
+    height: 24px;
+    width: 173px;
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    text-align: left;
+    margin-left: 73px;
+  }
+  .firstboxdee .para2 {
+    margin-left: 73px;
+    height: 264px;
+    width: 287px;
+    font-family: DM Serif Display;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  .firstboxdee .para3 {
+    margin-left: 73px;
+    margin-top: 25px;
+    height: 32px;
+    width: 125px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  .firstboxdee .para4 {
+    margin-left: 73px;
+    margin-top: 6px;
+    height: 24px;
+    width: 53px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5019607843);
+  }
+}/*# sourceMappingURL=main.css.map */
