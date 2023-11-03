@@ -259,4 +259,247 @@
   flex-shrink: 0;
   margin: auto;
   background-color: whitesmoke;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  display: flex;
+}
+.first .image {
+  width: 50%;
+}
+.first .text {
+  padding: 50px;
+}
+.first .text .sec {
+  display: flex;
+}
+.first .text h2 {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  width: 453px;
+  height: 128px;
+  margin-top: 150px;
+}
+.first .text p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.first .text .sec1 {
+  margin-top: 26px;
+}
+.first .text .sec2 {
+  margin-top: 26px;
+}
+
+.second {
+  display: flex;
+}
+.second .text {
+  width: 50%;
+  background-color: #434ccc;
+  color: white;
+}
+.second .text span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-left: 135px;
+}
+.second .text span h5 {
+  margin-top: 64px;
+  margin-left: 135px;
+}
+.second .text h1 {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  width: 331px;
+  margin-top: 21px;
+  margin-left: 135px;
+}
+.second .text p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 470px;
+  height: 103px;
+  margin-top: 29px;
+  margin-left: 135px;
+}
+.second .text button {
+  background-color: #f1b505;
+  color: white;
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 64px;
+  margin-left: 135px;
+}
+
+.third h5 {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.third h2 {
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.third p {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: -25px;
+  margin-bottom: 36px;
+}
+.third .cards {
+  display: flex;
+  gap: 20px;
+}
+.third .cards .card {
+  width: 370px;
+  height: 480px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+}
+.third .cards .card img {
+  border-radius: 50%;
+  margin: 23px 23px 0px 32px;
+}
+.third .cards .card h4 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 32px;
+}
+.third .cards .card hr {
+  background: black;
+  width: 338px;
+  height: 1px;
+  opacity: 0.1011;
+}
+.third .cards .card p {
+  text-align: start;
+  margin: 0px 0px 23px 32px;
+}
+.third .cards .card .detail {
+  display: flex;
+}
+.third .cards .card .detail img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-left: 23px;
+  margin-top: 13px;
+  margin-bottom: 24px;
+}
+.third .cards .card .detail .fb {
+  margin-left: 174px;
+}
+.third .cards .card .detail .tw, .third .cards .card .detail .insta {
+  margin-left: -13px;
+}
+
+.fourth h5 {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-top: 95px;
+}
+.fourth h2 {
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-top: -25px;
+}
+.fourth p {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: -17px;
+}
+.fourth .boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 112px;
+}
+.fourth .boxes .box {
+  height: 144px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+}
+.fourth .boxes .box img {
+  margin-top: 32px;
+  margin-left: 32px;
+  margin-right: 25px;
+  width: 43px;
+  height: 49px;
+  flex-shrink: 0;
+}
+.fourth .boxes .box .text {
+  width: 238px;
+  height: 65px;
+  flex-shrink: 0;
+  margin-top: -20px;
+  text-align: start;
+}
+.fourth .boxes .box .text h4 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.fourth .boxes .box .text p {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -20px;
+  align-self: self-start;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }/*# sourceMappingURL=main.css.map */
