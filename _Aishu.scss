@@ -5,31 +5,31 @@
     list-style: none;
     text-decoration: none;
 }
-.head{
+.Ahead{
 width: 1440px;
 height: 768px;
 margin: auto;
 flex-shrink: 0;
 background-color:#434CCC;
 }
-.head1{
+.Ahead1{
     width: 1140px;
     height:80px;
 }
-.head1>.navbar {
+.Ahead1>.Anavbar {
         max-width: 1440px;
         height: 80px;
         background-color: #434ccc;
         display: flex;
         align-items: center;
      } 
-     .navbar img {
+     .Anavbar img {
       width: 95px;
       height: 28px;
       position: absolute;
       margin-left: 135px;
       }
-      .navbar>.portfolio {
+      .Anavbar>.Aportfolio {
         width: 324px;
         height: 24px;
         position: absolute;
@@ -37,7 +37,7 @@ background-color:#434CCC;
         display: flex;
         justify-content: space-between;
       }
-      .portfolio a {
+      .Aportfolio a {
         font-family: "DM Sans", sans-serif;
         font-size: 16px;
         font-weight: 400;
@@ -47,7 +47,7 @@ background-color:#434CCC;
         color: #ffffff;
         text-decoration: none;
       }
-      .navbtn {
+      .Anavbtn {
         font-family: "DM Sans", sans-serif;
         width: 170px;
         height: 48px;
@@ -62,7 +62,7 @@ background-color:#434CCC;
         background-color: #434ccc;
         color: #ffffff;
       } 
-      .head2{
+      .Ahead2{
          width: 1170px;
          height:515px;
          display: flex;
@@ -70,12 +70,12 @@ background-color:#434CCC;
          /* background-color: red; */
          /* border: 1px solid black; */
       }
-      .part1{
+      .Apart1{
         height:510px;
         width: 515px;
         /* background-color: black; */
       } 
-      .part1 h5{
+      .Apart1 h5{
         color: var(--Text_White, #FFF);
         font-family: DM Sans;
         font-size: 16px;
@@ -86,7 +86,7 @@ background-color:#434CCC;
         text-transform: uppercase;
         padding-top: 79px;
       }
-      .part1 h1{
+      .Apart1 h1{
         color: var(--Text_White, #FFF);
         font-family: DM Serif Display;
         font-size: 72px;
@@ -95,7 +95,7 @@ background-color:#434CCC;
         line-height: 80px; 
         padding-top:24px;
       }
-      .part1 p{
+      .Apart1 p{
         color: var(--Text_White, #FFF);
         font-family: DM Sans;
         font-size: 16px;
@@ -104,10 +104,10 @@ background-color:#434CCC;
         line-height: 24px; 
         padding-top: 32px;
       }
-      .part1>div{
+      .Apart1>div{
         padding-top: 41px;
       }
-      .part1>div>.btn{
+      .Apart1>div>.Abtn{
         color: #FFF;
         text-align: center;
         font-family: DM Sans;
@@ -122,13 +122,13 @@ background-color:#434CCC;
         background: var(--Primary_2, #F1B505);
       }
   
-      .part2{
+      .Apart2{
         width:655px ;
         height: 515px;
         /* border:1px solid red ; */
         padding-top: 110px;
       }
-       .part2 img{
+       .Apart2 img{
         width: 150%;
         height: 650px;
         position: relative;
@@ -139,14 +139,14 @@ background-color:#434CCC;
  
  
       /* div2 */
-.mid{
+.Amid{
 width: 1440px;
 height: 768px;
 margin: auto;
 flex-shrink: 0;
 background-color: #FFDD78;
 }
-.first h2{
+.Afirst h2{
 color: var(--Text_Black, #000);
 text-align: center;
 padding-top: 60px;
@@ -156,7 +156,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 64px; 
 }
-.first p{
+.Afirst p{
 padding-top:25px ;
 color: var(--Text_Black, #000);
 text-align: center;
@@ -168,7 +168,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 32px; 
 }
-.sec{
+.Asec{
 width: 1440px;
 margin: auto;
 display: flex;
@@ -178,7 +178,7 @@ gap:30px;
  /* justify-content: space-evenly; */
 padding-top: 40px;
 }
-.sec>.card{
+.Asec>.Acard{
 width: 370px;
 height: 416px;
 flex-shrink: 0;
@@ -188,19 +188,19 @@ background: #FFF;
 box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
 }
 
-.card>div{
+.Acard>div{
 padding-top: 64px; 
 padding-left: 119px;  
  
 }
-.card>div img{
+.Acard>div img{
 width: 132px;
 height: 114px;
 flex-shrink: 0;
 
 
 }
-.card h4{
+.Acard h4{
 color: var(--Text_Black, #000);
 padding-top: 45px;
 padding-left: 30px;
@@ -211,7 +211,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 32px; 
 }
-.card p{
+.Acard p{
 color:gray;
 font-family: DM Sans;
 font-size: 16px;
@@ -221,11 +221,11 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; 
 }
-.card>.div2{
+.Acard>.Adiv2{
 padding-left: 32px;
 padding-top: 15px;   
 }
-.line{
+.Aline{
 width: 338px;
 height: 1px;
 flex-shrink: 0;
@@ -234,7 +234,7 @@ background: #000;
 display: inline-block;
 
 }
-.card> h6{
+.Acard> h6{
  color: var(--Text_Black, #000);
 padding-top: 14px;
 padding-left: 32px;
@@ -244,7 +244,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 24px; 
 }
-.last{
+.Alast{
     width: 1440px;
     height: 1328px;
     flex-shrink: 0; 
