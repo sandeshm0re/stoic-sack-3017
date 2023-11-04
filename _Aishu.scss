@@ -245,10 +245,119 @@ font-weight: 700;
 line-height: 24px; 
 }
 .Alast{
-    width: 1440px;
-    height: 1328px;
-    flex-shrink: 0; 
-    margin: auto;
-    background-color:whitesmoke
+  width: 1440px;
+  height: 1328px;
+  flex-shrink: 0; 
+  margin: auto;
+  background-color:whitesmoke;
 }
+.last1{
+  width: 1440px;
+  height: 263px;
+  /* border: 1px dotted red; */
+}
+.last1 h5{
+  color: var(--Text_Black, #000);
+text-align: center;
+padding-top: 63px;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 4.8px;
+text-transform: uppercase;
+}
+.last1 h2{
+  color: var(--Text_Black, #000);
+text-align: center;
+padding-top: 10px;
+/* H2 */
+font-family: DM Serif Display;
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: 64px; /* 114.286% */
+}
+.last1 p{
+  color: var(--Text_Black, #000);
+text-align: center;
+padding-top: 20px;
+/* Text_Big */
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.last2{
+   /* margin-left: 135px;
+  margin-right: 135px;  */
+   margin: auto;
+  width: 1440px;
+  height: 1044px;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+  grid-template-rows: repeat(2, 1fr); 
+}
+.item {
+  width: 720px;
+  text-align: left;
+  padding: 20px;
+  font-size: 1.2em;
+  /* border: 1px solid black; */
+}
+.item h3{
+  color: var(--Text_Black, #000);
+padding-top: 90px;
+/* H3 */
+right:-50px;
+font-family: DM Serif Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px; /* 120% */
+}
+.item p{
+  color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+padding-top: 37px;
+/* Text_Gray */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.item h6{
+  color: var(--Text_Black, #000);
+ padding-top: 37px;
+/* Text */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+}
+.item > .imgl1{
+  padding-left: 90px;
+  
+}
+.item> .p2{
+  margin-left: 235px;
+}
+.last2>div:nth-child(4){
+  /* background-color: red; */
+  width: 640px;
+  height: 456px;
+  margin-right: 100px;
 
+
+}
+.item>.imgl2{
+  width:600px ;
+  position: relative;
+  left: -50px;
+  /* margin-right:135px; */
+  /* object-fit: cover; */
+}
