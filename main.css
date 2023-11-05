@@ -1088,11 +1088,183 @@
   width: 114px;
 }
 
+.shcontainer {
+  width: 1440px;
+  height: 768px;
+  flex-shrink: 0;
+  background-color: #434ccc;
+  padding-top: 79px;
+  margin: auto;
+}
+.shcontainer h5 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  color: var(--Text_White, #FFF);
+  text-align: center;
+}
+.shcontainer h2 {
+  color: var(--Text_White, #FFF);
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-top: 21px;
+}
+.shcontainer p {
+  color: var(--Text_White, #FFF);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 570px;
+  height: 83px;
+  margin: 29px 435px 0px 435px;
+}
+.shcontainer .overlap {
+  width: 1170px;
+  height: 512px;
+  margin: 52px 135px 0px 135px;
+  display: flex;
+}
+.shcontainer .overlap .overimg {
+  background-image: url("Image/lady.png");
+  width: 1200px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.shcontainer .overlap .overimg p {
+  text-align: start;
+  margin-top: 111px;
+  margin-left: 135px;
+  color: white;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.shcontainer .overlap .overimg h2 {
+  text-align: start;
+  margin-left: 135px;
+  margin-top: -25px;
+  color: var(--Text_White, #FFF);
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 114.286% */
+  width: 370px;
+}
+.shcontainer .overlap .overimg img {
+  width: 1200px;
+  height: 800px;
+  flex-shrink: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.shcontainer .overlap .overimg button {
+  margin-left: 135px;
+  margin-top: 36px;
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+.shcontainer .shcards {
+  margin-top: -16px;
+  width: 1440px;
+  height: 760px;
+  flex-shrink: 0;
+  display: flex;
+  gap: 31px;
+}
+.shcontainer .shcards .shcard {
+  width: 570px;
+  height: 512px;
+  background-color: brown;
+  margin-top: 128px;
+  border-radius: 5px;
+}
+.shcontainer .shcards .shcard p {
+  text-align: start;
+  color: white;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 91px;
+  margin-top: 79px;
+}
+.shcontainer .shcards .shcard h4 {
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 91px;
+  width: 161px;
+  height: 96px;
+  margin-top: -40px;
+  color: white;
+}
+.shcontainer .shcards .shcard button {
+  margin-left: 91px;
+  border: 1px solid white;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  margin-top: 24px;
+  background: none;
+  border-radius: 5px;
+}
+.shcontainer .shcards #sh1 {
+  margin-left: 135px;
+  background-image: url("Image/statue.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.shcontainer .shcards #sh2 {
+  background-image: url("Image/dog.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.shcontainer .shcards #sh2 h4 {
+  width: 147px;
+}
+.shcontainer #bt {
+  margin-left: 635px;
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  background: none;
+  border: 0.5px solid #434ccc;
+  margin-top: -20px;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   width: 1440px;
   margin: auto;
+  margin-top: 800px;
 }
 
 .first {
@@ -1177,11 +1349,13 @@
   flex-shrink: 0;
   border: none;
   border-radius: 5px;
+  margin-top: 32px;
   margin-bottom: 64px;
   margin-left: 135px;
 }
 
 .third h5 {
+  margin-top: 63px;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -1191,6 +1365,7 @@
   text-transform: uppercase;
 }
 .third h2 {
+  margin-top: 21px;
   text-align: center;
   font-size: 56px;
   font-style: normal;
@@ -1198,23 +1373,27 @@
   line-height: 64px;
 }
 .third p {
+  margin-top: 29px;
   text-align: center;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  margin-top: -25px;
   margin-bottom: 36px;
 }
 .third .cards {
   display: flex;
-  gap: 20px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.third .cards .card1 {
+  margin-left: 135px;
 }
 .third .cards .card {
   width: 370px;
   height: 480px;
   flex-shrink: 0;
-  margin: 0 auto;
+  background-color: white;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
 }
 .third .cards .card img {
@@ -1227,16 +1406,18 @@
   font-weight: 400;
   line-height: 32px;
   margin-left: 32px;
+  margin-top: 18px;
 }
 .third .cards .card hr {
   background: black;
   width: 338px;
   height: 1px;
   opacity: 0.1011;
+  margin-top: 24px;
 }
 .third .cards .card p {
   text-align: start;
-  margin: 0px 0px 23px 32px;
+  margin: 18px 0px 23px 32px;
 }
 .third .cards .card .detail {
   display: flex;
@@ -1246,8 +1427,7 @@
   height: 18px;
   flex-shrink: 0;
   margin-left: 23px;
-  margin-top: 13px;
-  margin-bottom: 24px;
+  margin-top: 25px;
 }
 .third .cards .card .detail .fb {
   margin-left: 174px;
@@ -1272,7 +1452,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 64px;
-  margin-top: -25px;
+  margin-top: 21px;
 }
 .fourth p {
   text-align: center;
@@ -1280,12 +1460,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  margin-top: -17px;
+  margin-top: 29px;
 }
 .fourth .boxes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+  margin-top: 52px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 112px;
@@ -1293,7 +1474,7 @@
 .fourth .boxes .box {
   height: 144px;
   border-radius: 5px;
-  background: #FFF;
+  background: white;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
   display: flex;
 }
@@ -1309,24 +1490,233 @@
   width: 238px;
   height: 65px;
   flex-shrink: 0;
-  margin-top: -20px;
-  text-align: start;
 }
 .fourth .boxes .box .text h4 {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+  margin-top: 32px;
 }
 .fourth .boxes .box .text p {
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  margin-top: -20px;
-  align-self: self-start;
+  margin-top: 7px;
 }
 
+@media screen and (max-width: 370px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .first {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .first .image {
+    width: 100%;
+  }
+  .first .image img {
+    width: 100%;
+    height: auto;
+  }
+  .first .text {
+    margin-top: -150px;
+  }
+  .first .text .sec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .first .text h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    width: 323px;
+    height: 96px;
+    margin-top: 150px;
+    overflow: hidden;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .first .text p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .second .text {
+    width: 100%;
+    height: auto;
+  }
+  .second .text h1 {
+    margin-left: 14px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 100%;
+    height: auto;
+  }
+  .second .text p {
+    margin-left: 14px;
+    margin-right: 15px;
+    width: 100%;
+    height: auto;
+  }
+  .second .text span h5 {
+    margin-left: 14px;
+    width: 100%;
+    height: auto;
+  }
+  .second .text button {
+    margin-left: 14px;
+  }
+  .second .image img {
+    width: 100%;
+    height: auto;
+  }
+  .third .cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 20px;
+  }
+  .third .cards .card1 {
+    margin: 0;
+  }
+  .third .cards .card {
+    width: 100%;
+    height: auto;
+  }
+  .third .cards .card img {
+    border-radius: 50%;
+    width: 80%;
+    height: auto;
+    margin: 25px 23px 0px 23px;
+  }
+  .third .cards .card .detail img {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+  .third .cards .card .detail .fb {
+    margin-left: 130px;
+  }
+  .fourth {
+    width: 100%;
+  }
+  .fourth .boxes {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fourth .boxes .box .text {
+    height: auto;
+  }
+  .shcontainer {
+    width: 100%;
+  }
+  .shcontainer h5 {
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+  .shcontainer h2 {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .shcontainer p {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .shcontainer .overlap {
+    width: 100%;
+    background-size: cover;
+  }
+  .shcontainer .overlap .overimg {
+    margin-left: -135px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+  .shcontainer .overlap .overimg p {
+    margin: 0;
+    text-align: start;
+    margin-left: 50px;
+    width: 100%;
+    height: auto;
+  }
+  .shcontainer .overlap .overimg h2 {
+    margin: 0;
+    text-align: start;
+    margin-left: 50px;
+    width: 100%;
+    height: auto;
+  }
+  .shcontainer .overlap .overimg img {
+    width: 1200px;
+    height: 800px;
+    flex-shrink: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .shcontainer .overlap .overimg button {
+    margin-left: 50px;
+  }
+  .shcontainer .shcards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .shcontainer .shcards .shcard {
+    width: 100%;
+    height: auto;
+  }
+  .shcontainer .shcards .shcard p {
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: start;
+    width: 100%;
+    height: 200px;
+  }
+  .shcontainer .shcards .shcard h4 {
+    margin-top: -160px;
+    margin-left: 30px;
+  }
+  .shcontainer .shcards .shcard button {
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .shcontainer .shcards #sh1 {
+    margin: 0;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+  .shcontainer .shcards #sh2 {
+    margin-top: -20px;
+    width: 100%;
+    height: auto;
+  }
+}
 .Sandesh {
   display: flex;
   width: 1440px;
