@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .Ahead {
   width: 1440px;
   height: 768px;
@@ -26,7 +31,7 @@
   margin-left: 135px;
 }
 
-.Anavbar > .Aportfolio {
+.Anavbar > .Aport {
   width: 324px;
   height: 24px;
   position: absolute;
@@ -35,7 +40,7 @@
   justify-content: space-between;
 }
 
-.Aportfolio a {
+.Aport a {
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -62,8 +67,17 @@
   color: #ffffff;
 }
 
+.Anhiddenmenu {
+  display: none;
+  width: 20px;
+  height: 14px;
+  position: relative;
+  top: 24px;
+  left: 340px;
+}
+
 .Ahead2 {
-  width: 1170px;
+  width: 1440px;
   height: 515px;
   display: flex;
   margin-left: 135px;
@@ -74,7 +88,7 @@
 .Apart1 {
   height: 510px;
   width: 515px;
-  /* background-color: black; */
+  /* background-color: red; */
 }
 
 .Apart1 h5 {
@@ -113,7 +127,7 @@
   padding-top: 41px;
 }
 
-.Apart1 > div > .Abtn {
+.Apart1 > div > .A {
   color: #FFF;
   text-align: center;
   font-family: DM Sans;
@@ -133,6 +147,8 @@
   height: 515px;
   /* border:1px solid red ; */
   padding-top: 110px;
+  /* border:1px sold black; */
+  /* background-color: black; */
 }
 
 .Apart2 img {
@@ -208,7 +224,7 @@
 .Acard h4 {
   color: var(--Text_Black, #000);
   padding-top: 45px;
-  padding-left: 30px;
+  padding-left: 34px;
   /* H4 */
   font-family: DM Serif Display;
   font-size: 24px;
@@ -221,7 +237,7 @@
   color: gray;
   font-family: DM Sans;
   font-size: 16px;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-left: 32px;
   font-style: normal;
   font-weight: 400;
@@ -261,6 +277,374 @@
   background-color: whitesmoke;
 }
 
+.Alast1 {
+  width: 1440px;
+  height: 263px;
+  /* border: 1px dotted red; */
+}
+
+.Alast1 h5 {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  padding-top: 63px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+
+.Alast1 h2 {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  padding-top: 10px;
+  /* H2 */
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 114.286% */
+}
+
+.Alast1 p {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  padding-top: 20px;
+  /* Text_Big */
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.Alast2 {
+  /* margin-left: 135px;
+  margin-right: 135px;  */
+  margin: auto;
+  width: 1440px;
+  height: 1044px;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.Aitem {
+  width: 720px;
+  text-align: left;
+  padding: 20px;
+  font-size: 1.2em;
+  /* border: 1px solid black; */
+}
+
+.Aitem h3 {
+  color: var(--Text_Black, #000);
+  padding-top: 90px;
+  /* H3 */
+  right: -50px;
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+}
+
+.Aitem p {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  padding-top: 37px;
+  /* Text_Gray */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.Aitem h6 {
+  color: var(--Text_Black, #000);
+  padding-top: 37px;
+  /* Text */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+.Aitem > .Aimgl1 {
+  padding-left: 90px;
+}
+
+.Aitem > .Ap2 {
+  margin-left: 235px;
+}
+
+.Alast2 > div:nth-child(4) {
+  /* background-color: red; */
+  width: 640px;
+  height: 456px;
+  margin-right: 100px;
+}
+
+.Aitem > .Aimgl2 {
+  width: 600px;
+  position: relative;
+  left: -50px;
+  /* margin-right:135px; */
+  /* object-fit: cover; */
+}
+
+@media all and (max-width: 375px) {
+  .Ahead {
+    height: 768px;
+    margin-left: -125px;
+  }
+  .Anavbar {
+    width: 375px;
+    height: 64px;
+  }
+  .Anavbar img {
+    width: 59px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    left: 14px;
+    margin-left: -8px;
+  }
+  .Aport {
+    display: none;
+  }
+  .Aport a {
+    display: none;
+  }
+  .Anavbtn {
+    display: none;
+  }
+  .Anhiddenmenu {
+    display: flex;
+    width: 10px;
+    /* height: 14px; */
+    top: 3px;
+    left: 250px;
+    position: absolute;
+    /* color: white; */
+  }
+  .Ahead2 {
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  .Apart1 {
+    width: 100%;
+    padding: 10px;
+    /* align-items: left; */
+  }
+  .Apart1 h5 {
+    padding-top: 10px;
+  }
+  .Apart1 h1 {
+    font-size: 36px;
+    line-height: 40px;
+    padding-top: 10px;
+  }
+  .Apart1 p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 10px;
+  }
+  .Apart1 > div {
+    padding-top: 10px;
+  }
+  .Apart1 > div > .Abtn {
+    width: 170px;
+  }
+  .Apart2 {
+    width: 537px;
+    height: 358px;
+    top: 431px;
+    left: -80px;
+    bottom: 500px;
+  }
+  .Apart2 img {
+    width: 470px;
+    height: 358px;
+    /* top:-20px; */
+    bottom: 20px;
+    left: -550px;
+  }
+  .Amid {
+    margin-left: -105px;
+    /* width: 100%; */
+    flex-shrink: 0;
+    background-color: #FFDD78;
+    /* margin: 0; */
+    height: 1400px;
+  }
+  .Afirst {
+    margin-left: -800px;
+    text-align: start;
+  }
+  .Afirst h2 {
+    top: 0;
+    text-align: center;
+    font-size: 28px;
+    line-height: 36px;
+    padding-top: 30px;
+    margin-left: -60px;
+  }
+  .Afirst p {
+    text-align: center;
+    /* margin */
+    font-size: 12px;
+    line-height: 22px;
+    padding-top: 15px;
+    margin-left: -65px;
+  }
+  .Asec {
+    width: 300px;
+    height: 1000px;
+    top: 1040px;
+    /* left: 14px; */
+    padding: 10px;
+  }
+  .Asec > .Acard {
+    width: 112%;
+    height: 380px;
+    margin-left: -30px;
+  }
+  .Acard h4 {
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .Acard p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .Acard h6 {
+    text-align: center;
+  }
+  .Acard .Adiv2, .Acard h6 {
+    padding-top: 10px;
+  }
+  .Acard .Aline {
+    width: 100%;
+  }
+  .Alast {
+    /* height: 1800px; */
+    /* margin-left: -800px; */
+    /* text-align: left; */
+    /* width: 100%; */
+    margin-left: -105px;
+    /* width: 100%; */
+    flex-shrink: 0;
+    /* background-color: #FFDD78; */
+    /* margin: 0; */
+    height: 1550px;
+  }
+  .Alast > .Alast1 h5 {
+    /* margin-left: -600px; */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    text-align: left;
+    margin-left: 250px;
+  }
+  .Alast1 h2 {
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 10px;
+    text-align: left;
+    margin-left: 200px;
+  }
+  .Alast1 p {
+    font-size: 13px;
+    line-height: 22px;
+    padding-top: 15px;
+    text-align: left;
+    margin-left: 110px;
+  }
+  .Aitem {
+    /* width: 100%; */
+    margin: 0;
+  }
+  .Aitem > .Aimgl1 img {
+    width: 170%;
+    margin-left: 135px;
+    margin-top: -70px;
+  }
+  .Aitem > .Aimgl2 img {
+    width: 120%;
+    /* margin-left:-470px; */
+    margin-top: -100px;
+  }
+  .Aitem h3 {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 20px;
+    margin-left: 97px;
+  }
+  .Aitem p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-left: 97px;
+  }
+  .Aitem h6 {
+    padding-top: 10px;
+    margin-left: 97px;
+  }
+  .Aitem > .Aimgl1, .Aitem > .Aimgl2 {
+    width: 50%;
+    max-width: none;
+    margin-left: -280px;
+  }
+  .Alast2 {
+    grid-template-columns: 1fr;
+  }
+  .Alast2 > div:nth-child(1) {
+    order: 1;
+  }
+  .Alast2 > div:nth-child(2) {
+    order: 2;
+  }
+  .Alast2 > div:nth-child(3) {
+    order: 4;
+  }
+  .Alast2 > div:nth-child(4) {
+    order: 3;
+    margin-left: -80px;
+    /* width: 120%; */
+    margin-top: -70px;
+  }
+  .Aitem > .Ap2 h3 {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 20px;
+    margin-left: -135px;
+    text-align: left;
+  }
+  .Ap2 p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-left: 97px;
+    margin-left: -135px;
+  }
+  .Ap2 h6 {
+    padding-top: 10px;
+    margin-left: 97px;
+    margin-left: -135px;
+  }
+}
 * {
   margin: 0px;
   padding: 0px;
