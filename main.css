@@ -709,6 +709,7 @@
   flex-direction: column;
   width: 1440px;
   margin: auto;
+  margin-top: 800px;
 }
 
 .first {
@@ -793,11 +794,13 @@
   flex-shrink: 0;
   border: none;
   border-radius: 5px;
+  margin-top: 32px;
   margin-bottom: 64px;
   margin-left: 135px;
 }
 
 .third h5 {
+  margin-top: 63px;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -807,6 +810,7 @@
   text-transform: uppercase;
 }
 .third h2 {
+  margin-top: 21px;
   text-align: center;
   font-size: 56px;
   font-style: normal;
@@ -814,23 +818,27 @@
   line-height: 64px;
 }
 .third p {
+  margin-top: 29px;
   text-align: center;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  margin-top: -25px;
   margin-bottom: 36px;
 }
 .third .cards {
   display: flex;
-  gap: 20px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.third .cards .card1 {
+  margin-left: 135px;
 }
 .third .cards .card {
   width: 370px;
   height: 480px;
   flex-shrink: 0;
-  margin: 0 auto;
+  background-color: white;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
 }
 .third .cards .card img {
@@ -843,16 +851,18 @@
   font-weight: 400;
   line-height: 32px;
   margin-left: 32px;
+  margin-top: 18px;
 }
 .third .cards .card hr {
   background: black;
   width: 338px;
   height: 1px;
   opacity: 0.1011;
+  margin-top: 24px;
 }
 .third .cards .card p {
   text-align: start;
-  margin: 0px 0px 23px 32px;
+  margin: 18px 0px 23px 32px;
 }
 .third .cards .card .detail {
   display: flex;
@@ -862,8 +872,7 @@
   height: 18px;
   flex-shrink: 0;
   margin-left: 23px;
-  margin-top: 13px;
-  margin-bottom: 24px;
+  margin-top: 25px;
 }
 .third .cards .card .detail .fb {
   margin-left: 174px;
@@ -888,7 +897,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 64px;
-  margin-top: -25px;
+  margin-top: 21px;
 }
 .fourth p {
   text-align: center;
@@ -896,12 +905,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  margin-top: -17px;
+  margin-top: 29px;
 }
 .fourth .boxes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+  margin-top: 52px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 112px;
@@ -909,7 +919,7 @@
 .fourth .boxes .box {
   height: 144px;
   border-radius: 5px;
-  background: #FFF;
+  background: white;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
   display: flex;
 }
@@ -925,24 +935,140 @@
   width: 238px;
   height: 65px;
   flex-shrink: 0;
-  margin-top: -20px;
-  text-align: start;
 }
 .fourth .boxes .box .text h4 {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+  margin-top: 32px;
 }
 .fourth .boxes .box .text p {
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  margin-top: -20px;
-  align-self: self-start;
+  margin-top: 7px;
 }
 
+@media screen and (max-width: 370px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .first {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .first .image {
+    width: 100%;
+  }
+  .first .image img {
+    width: 100%;
+    height: auto;
+  }
+  .first .text {
+    margin-top: -150px;
+  }
+  .first .text .sec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .first .text h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    width: 323px;
+    height: 96px;
+    margin-top: 150px;
+    overflow: hidden;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .first .text p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .second .text {
+    width: 100%;
+    height: auto;
+  }
+  .second .text h1 {
+    margin-left: 14px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 100%;
+    height: auto;
+  }
+  .second .text p {
+    margin-left: 14px;
+    margin-right: 15px;
+    width: 100%;
+    height: auto;
+  }
+  .second .text span h5 {
+    margin-left: 14px;
+    width: 100%;
+    height: auto;
+  }
+  .second .text button {
+    margin-left: 14px;
+  }
+  .second .image img {
+    width: 100%;
+    height: auto;
+  }
+  .third .cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 20px;
+  }
+  .third .cards .card1 {
+    margin: 0;
+  }
+  .third .cards .card {
+    width: 100%;
+    height: auto;
+  }
+  .third .cards .card img {
+    border-radius: 50%;
+    width: 80%;
+    height: auto;
+    margin: 25px 23px 0px 23px;
+  }
+  .third .cards .card .detail img {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+  .third .cards .card .detail .fb {
+    margin-left: 130px;
+  }
+  .fourth {
+    width: 100%;
+  }
+  .fourth .boxes {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fourth .boxes .box .text {
+    height: auto;
+  }
+}
 .Sandesh {
   display: flex;
   width: 1440px;
