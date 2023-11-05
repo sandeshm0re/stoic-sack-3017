@@ -1088,6 +1088,254 @@
   width: 114px;
 }
 
+@media screen and (max-width: 370px) {
+  .Dbigdiv {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .Dbigdiv .Dbigdiv_firstbox {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .Dbigdiv .Dbigdiv_firstbox h5 {
+    width: 100%;
+    height: auto;
+    align-self: start;
+  }
+  .Dbigdiv .Dbigdiv_firstbox h2 {
+    width: 100%;
+    height: auto;
+    align-self: start;
+  }
+  .Dbigdiv .Dbigdiv_firstbox p {
+    width: 100%;
+    height: auto;
+    align-self: start;
+  }
+  .Dbigdiv .Dbigdiv_firstbox button {
+    margin-bottom: 80px;
+  }
+  .Dbigdiv .Dbigdiv_firstbox .Dlogos_for_big_Div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .Dbigdiv .Dbigdiv_firstbox .Dlogos_for_big_Div #Dgoogle {
+    margin-top: 33px;
+  }
+  .Dbigdiv .Dbigdiv_firstbox .Dlogos_for_big_Div #Dmiddle {
+    margin-top: 33px;
+  }
+  .Dbigdiv .Dbigdiv_firstbox .Dlogos_for_big_Div #Dspotify {
+    margin-top: 33px;
+  }
+  .Dbigdiv .Dbigdiv_firstbox .Dlogos_for_big_Div #Dairbnb {
+    margin-top: 33px;
+  }
+  .Dbigdiv .DSecond_section {
+    width: 100%;
+    height: auto;
+  }
+  .Dbigdiv .Dbigdiv_secondbox {
+    width: 100%;
+    height: auto;
+  }
+  .Dbigdiv .Dbigdiv_secondbox h5 {
+    width: 100%;
+    height: auto;
+    align-self: start;
+  }
+  .Dbigdiv .Dbigdiv_secondbox .Dinnersecondbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .Dbigdiv .Dbigdiv_secondbox .Dinnersecondbox h2 {
+    width: 100%;
+    height: auto;
+    align-self: start;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+  }
+  .Dbigdiv .Dbigdiv_secondbox .Dinnersecondbox button {
+    visibility: hidden;
+  }
+  .Dbigdiv .Dbigdiv_secondbox .Dflexbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .Dbigdiv .Dbigdiv_secondbox .Dflexbox .Dflexboxchild1 {
+    width: 95%;
+    height: auto;
+    padding: 10px;
+  }
+  .Dbigdiv .Dbigdiv_secondbox .Dflexbox .Dflexboxchild1 > img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .Dbigdiv .Dbigdiv_secondbox .Dflexbox .Dflexboxchild1 > p {
+    width: 100%;
+    height: auto;
+    align-self: start;
+  }
+  .Dbigdiv .Dbigdiv_secondbox .Dflexbox .Dflexboxchild1 h4 {
+    width: 100%;
+    height: auto;
+    align-self: start;
+  }
+  .Dbigdiv .Dbigdiv_secondbox .Dflexbox .Dflexboxchild2 {
+    width: 95%;
+    height: auto;
+    padding: 10px;
+  }
+  .Dbigdiv .Dbigdiv_secondbox .Dflexbox .Dflexboxchild2 > img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .Dbigdiv .Dbigdiv_secondbox .Dflexbox .Dflexboxchild2 > p {
+    width: 100%;
+    height: auto;
+    align-self: start;
+  }
+  .Dbigdiv .Dbigdiv_secondbox .Dflexbox .Dflexboxchild2 h4 {
+    width: 100%;
+    height: auto;
+    align-self: start;
+  }
+  .Dbigdiv .Dlastsection_of_todays-work {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .Dbigdiv .Dlastsection_of_todays-work .Dgrid {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Dbigdiv .Dlastsection_of_todays-work .Dgrid .Dgridbox img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .Dbigdiv .Dlastsection_of_todays-work #Dgridbox1 h5 {
+    margin-top: 62px;
+    width: 100%;
+    height: auto;
+    align-self: start;
+  }
+  .Dbigdiv .Dlastsection_of_todays-work #Dgridbox1 h4 {
+    margin-top: 33px;
+    width: 100%;
+    height: auto;
+    align-self: start;
+  }
+}
+@media all and (max-width: 374px) {
+  .Dfirstboxdee {
+    height: 848px;
+    width: 375px;
+    background: #434CCC;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Dfirstboxdee .Dless_greater_sign {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    top: 165px;
+    left: -210px;
+  }
+  .Dfirstboxdee .Dless_greater_sign .Dimgbox {
+    height: 48px;
+    width: 48px;
+    border: 1px solid rgb(234, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 152px;
+  }
+  .Dfirstboxdee .Dless_greater_sign img {
+    height: 21px;
+    width: 13px;
+  }
+  .Dfirstboxdee .Dladiesimg {
+    height: 270px;
+    width: 270px;
+    margin-left: 80px;
+    margin-top: -20px;
+  }
+  .Dfirstboxdee .Dlastdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+    margin-top: 40px;
+  }
+  .Dfirstboxdee .Dpara1 {
+    height: 24px;
+    width: 173px;
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    text-align: left;
+    margin-left: 73px;
+  }
+  .Dfirstboxdee .Dpara2 {
+    margin-left: 73px;
+    height: 264px;
+    width: 287px;
+    font-family: DM Serif Display;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  .Dfirstboxdee .Dpara3 {
+    margin-left: 73px;
+    margin-top: 25px;
+    height: 32px;
+    width: 125px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  .Dfirstboxdee .Dpara4 {
+    margin-left: 73px;
+    margin-top: 6px;
+    height: 24px;
+    width: 53px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5019607843);
+  }
+}
 .shcontainer {
   width: 1440px;
   height: 768px;
