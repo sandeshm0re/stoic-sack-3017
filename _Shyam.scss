@@ -186,6 +186,7 @@
     width: 1440px;
     margin: auto;
     margin-top: 800px;
+    background-color: rgb(245,245,245);
    
    }
    .first{
@@ -326,6 +327,7 @@
                        margin: 23px 23px 0px 32px;
                    }
                    h4{
+                       width: 171px;
                        font-size: 24px;
                        font-style: normal;
                        font-weight: 400;
@@ -346,6 +348,7 @@
                    }
                    .detail{
                        display: flex;
+                       margin-top: -30px;
                        img{
                            width: 18px;
                            height: 18px;

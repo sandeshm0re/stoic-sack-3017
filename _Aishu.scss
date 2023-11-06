@@ -188,7 +188,7 @@ padding-top: 40px;
 }
 .Asec>.Acard{
 width: 370px;
-height: 416px;
+height: 430px;
 flex-shrink: 0;
 
 border-radius: 5px;
@@ -228,6 +228,7 @@ padding-left: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; 
+margin-top: 15px;
 }
 .Acard>.Adiv2{
 padding-left: 32px;
@@ -407,7 +408,7 @@ left: -50px;
   top: 3px;
   left: 250px;
   position: absolute;
-  /* color: white; */
+  //color: white;
 }
 .Ahead2 {
   flex-direction: column;
@@ -507,6 +508,8 @@ padding: 10px;
 width: 112%;
 height: 380px;
 margin-left:-30px;
+//text-align: center;
+//align-items: center;
 }
 
 
@@ -515,6 +518,7 @@ font-size: 20px;
 line-height: 28px;
 padding-top: 20px;
 text-align: center;
+margin-left: 110px;
 }
 
 .Acard p {
