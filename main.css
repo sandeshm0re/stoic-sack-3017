@@ -203,7 +203,7 @@
 
 .Asec > .Acard {
   width: 370px;
-  height: 416px;
+  height: 430px;
   flex-shrink: 0;
   border-radius: 5px;
   background: #FFF;
@@ -242,6 +242,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+  margin-top: 15px;
 }
 
 .Acard > .Adiv2 {
@@ -430,7 +431,6 @@
     top: 3px;
     left: 250px;
     position: absolute;
-    /* color: white; */
   }
   .Ahead2 {
     flex-direction: column;
@@ -520,6 +520,7 @@
     line-height: 28px;
     padding-top: 20px;
     text-align: center;
+    margin-left: 110px;
   }
   .Acard p {
     font-size: 14px;
@@ -740,6 +741,7 @@
   height: 1904px;
   width: 1440px;
   margin: auto;
+  background-color: rgb(245, 245, 245);
 }
 .Dbigdiv .Dbigdiv_firstbox {
   width: 1440px;
@@ -1008,7 +1010,7 @@
   line-height: 24px;
   color: #000000;
   /* 150% */
-  margin-top: 18px;
+  margin-top: -30px;
 }
 .Dbigdiv .Dbigdiv_secondbox .Dflexbox .Dsecond_box > img {
   height: 11px;
@@ -1017,7 +1019,7 @@
   color: #000000;
   margin-top: 3px;
   margin-left: 7px;
-  margin-top: 18px;
+  margin-top: -30px;
 }
 
 .Dlastsection_of_todays-work {
@@ -1513,6 +1515,7 @@
   width: 1440px;
   margin: auto;
   margin-top: 800px;
+  background-color: rgb(245, 245, 245);
 }
 
 .first {
@@ -1649,6 +1652,7 @@
   margin: 23px 23px 0px 32px;
 }
 .third .cards .card h4 {
+  width: 171px;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -1669,6 +1673,7 @@
 }
 .third .cards .card .detail {
   display: flex;
+  margin-top: -30px;
 }
 .third .cards .card .detail img {
   width: 18px;
